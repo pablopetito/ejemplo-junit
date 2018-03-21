@@ -1,4 +1,4 @@
-package milanga.ejemplo.junit;
+package utn111.ejemplo.junit;
 
 import static org.junit.Assert.*;
 
@@ -19,13 +19,13 @@ public class ListaTestUnit {
     // Una lista con 3 argumentos ..
     String[] elementos = new String[] { "A", "B", "C" };
     final Lista<String> lista = new Lista<String>(elementos);
-    // .. deberia tener tamaño 3 
+    // .. deberia tener tamaño 3
     assertEquals(3, lista.tamaño());
   }
 
   @Test
   public void testObtenerElemento() throws Exception {
-    // Una lista con 3 argumentos .. 
+    // Una lista con 3 argumentos ..
     String[] elementos = new String[] { "A", "B", "C" };
     final Lista<String> lista = new Lista<String>(elementos);
 

@@ -1,4 +1,4 @@
-package milanga.ejemplo.junit;
+package utn111.ejemplo.junit;
 
 public class Lista<T> {
 
@@ -74,7 +74,7 @@ public class Lista<T> {
       if (i == 0) {
         return valor;
       } else {
-        return obtener(i - 1); 
+        return obtener(i - 1);
       }
     }
   }
