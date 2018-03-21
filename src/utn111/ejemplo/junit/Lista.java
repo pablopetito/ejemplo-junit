@@ -14,11 +14,11 @@ public class Lista<T> {
     }
   }
 
-  public int tamaño() {
+  public int tamanio() {
     if (primero == null) {
       return 0;
     }
-    return primero.tamaño();
+    return primero.tamanio();
   }
 
   private void agregar(T e) {
@@ -53,11 +53,11 @@ public class Lista<T> {
       this(valor, null);
     }
 
-    private int tamaño () {
+    private int tamanio () {
       if (siguiente == null) {
         return 1;
       } else {
-        return 1 + siguiente.tamaño();
+        return 1 + siguiente.tamanio();
       }
     }
 

@@ -11,7 +11,7 @@ public class ListaTestUnit {
     // Una lista sin argumentos ..
     final Lista<String> lista = new Lista<String>();
     // .. deberia estar vacia
-    assertEquals(0, lista.tamaño());
+    assertEquals(0, lista.tamanio());
   }
 
   @Test
@@ -20,7 +20,7 @@ public class ListaTestUnit {
     String[] elementos = new String[] { "A", "B", "C" };
     final Lista<String> lista = new Lista<String>(elementos);
     // .. deberia tener tamaño 3
-    assertEquals(3, lista.tamaño());
+    assertEquals(3, lista.tamanio());
   }
 
   @Test
@@ -28,8 +28,8 @@ public class ListaTestUnit {
     // Una lista con 3 argumentos ..
     String[] elementos = new String[] { "A", "B", "C" };
     final Lista<String> lista = new Lista<String>(elementos);
-
     // deberia contenerlos en el mismo orden
+
     assertEquals("A", lista.obtener(0));
     assertEquals("B", lista.obtener(1));
     assertEquals("C", lista.obtener(2));
