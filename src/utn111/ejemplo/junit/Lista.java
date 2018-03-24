@@ -74,7 +74,7 @@ public class Lista<T> {
       if (i == 0) {
         return valor;
       } else {
-        return obtener(i - 1);
+        return siguiente.obtener(i - 1);
       }
     }
   }
